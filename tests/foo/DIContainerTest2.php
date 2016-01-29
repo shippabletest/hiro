@@ -2,7 +2,7 @@
 
 namespace Infor\Hiro\Tests;
 
-class DIContainerTest extends \PHPUnit_Framework_TestCase
+class DIContainerTest2 extends \PHPUnit_Framework_TestCase
 {
     public function testWithString()
     {
