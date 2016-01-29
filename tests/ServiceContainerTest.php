@@ -20,6 +20,6 @@ class ServiceContainerTest extends PHPUnit_Framework_TestCase
         $container = new Infor\Hiro\ServiceContainer($config);
 
         $this->assertInstanceOf('\Infor\Hiro\Tests\Service', $container->serviceWithCall);
-        $this->assertEquals($container->serviceWithCall->arg->arg, 'value');
+        $this->assertEquals($container->serviceWithCall->arg->arg, 'wrongvalue');
     }
 }
